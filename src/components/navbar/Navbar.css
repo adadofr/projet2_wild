@@ -1,0 +1,47 @@
+
+#logo{
+  height: auto;
+  width: 80%;
+  margin: 15px;
+  border-radius: 20%;
+}
+
+a {
+  text-decoration: none !important;
+}
+
+.logo-title {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+}
+
+.navbar-collapse.collapse.in {
+  display: block !important;
+}
+
+.navbar-brand{
+  font-family: 'Playfair Display', serif; 
+  font-size: 2em;
+}
+
+.nav-link{
+  font-family: 'Lato', sans-serif;
+}
+
+.navbar{
+  background-color: black;
+}
+
+@media only screen and (max-width: 875px) {
+  .navbar{
+    display:flex;
+    flex-direction: row;
+  }
+
+  #logo{
+    height: 50px;
+    width: auto;
+  }
+  
+}
